@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+
+  sinesp-api:
+    container_name: sinesp-api
+    build: .
+    ports:
+      - "3000:3000"
